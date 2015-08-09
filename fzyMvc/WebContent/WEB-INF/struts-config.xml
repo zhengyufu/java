@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struts>
+    <action-mapping>
+        <action name="user" class="com.fzy.web.action.UserAction" form="com.fzy.web.pojo.UserInfo" path="/index">
+            <forward name="success" value="/view/ok.jsp"></forward>
+            <forward name="fail" value="/view/fail.jsp"></forward>
+        </action>
+       
+    </action-mapping>
+</struts>
